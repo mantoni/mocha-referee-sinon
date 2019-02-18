@@ -19,13 +19,13 @@ Installs global `beforeEach` and `afterEach` hooks for Mocha to verify that
 Install in `devDependencies`:
 
 ```bash
-$ npm install -D mocha-referee-sinon
+❯ npm install -D mocha-referee-sinon
 ```
 
 ## Usage
 
 ```bash
-$ mocha --file ./node_modules/mocha-referee-sinon
+❯ mocha --file ./node_modules/mocha-referee-sinon
 ```
 
 ## Compatibility
