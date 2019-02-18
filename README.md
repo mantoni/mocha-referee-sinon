@@ -23,7 +23,7 @@ $ npm install -D mocha-referee-sinon
 ## Usage
 
 ```bash
-$ mocha --require mocha-referee-sinon
+$ mocha --file ./node_modules/mocha-referee-sinon
 ```
 
 ## Compatibility
