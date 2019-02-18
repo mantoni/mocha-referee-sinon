@@ -9,8 +9,10 @@ Common initialization file for [Mocha][] when used with
 
 ## What it does
 
-- Asserts that each test has at least one assertion.
-- Calls `sinon.restore()` after each test.
+Installs global `beforeEach` and `afterEach` hooks for Mocha to verify that
+
+- each test has at least one referee assertion
+- the global Sinon sandbox is restored with `sinon.restore()`
 
 ## Install
 
