@@ -1,9 +1,9 @@
 /*eslint-env mocha*/
 /*
  * Global beforeEach and afterEach hooks for Mocha to verify that each test has
- * at least one referee assertion.
+ * at least one referee assertion and the global Sinon sandbox is restored.
  *
- * Preload with `mocha --file ./fixture/verifier.js`.
+ * Preload with `mocha --file ./node_modules/mocha-referee-sinon`.
  */
 'use strict';
 
