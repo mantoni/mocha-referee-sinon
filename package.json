@@ -1,0 +1,47 @@
+{
+  "name": "mocha-referee-sinon",
+  "version": "0.0.0",
+  "description": "Common Mocha setup for @sinonjs/referee-sinon",
+  "keywords": [
+    "mocha",
+    "referee",
+    "sinon",
+    "testing"
+  ],
+  "author": "Maximilian Antoni <mail@maxantoni.de> (http://maxantoni.de/)",
+  "homepage": "https://github.com/mantoni/mocha-referee-sinon",
+  "eslintConfig": {
+    "extends": "@studio"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "watch": "mocha --watch",
+    "lint": "eslint .",
+    "posttest": "npm run lint",
+    "preversion": "npm test",
+    "version": "changes --commits --footer",
+    "postversion": "git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mantoni/mocha-referee-sinon"
+  },
+  "peerDependencies": {
+    "@sinonjs/referee-sinon": "^5.0.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "@sinonjs/referee-sinon": "^5.0.0",
+    "@studio/changes": "^1.7.0",
+    "@studio/eslint-config": "^1.0.2",
+    "eslint": "^5.14.0",
+    "mocha": "^5.2.0"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "license": "MIT"
+}
