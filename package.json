@@ -29,14 +29,14 @@
   },
   "peerDependencies": {
     "@sinonjs/referee-sinon": "^5.0.0",
-    "mocha": "^5.2.0"
+    "mocha": "^10.2.0"
   },
   "devDependencies": {
     "@sinonjs/referee-sinon": "^5.0.0",
     "@studio/changes": "^1.7.0",
     "@studio/eslint-config": "^1.0.2",
     "eslint": "^5.14.0",
-    "mocha": "^5.2.0"
+    "mocha": "^10.2.0"
   },
   "files": [
     "index.js",
